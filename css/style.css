@@ -1,0 +1,82 @@
+.gameboyMain{
+    display: flex;
+    justify-content: center;
+}
+.gameboy{
+    position: fixed;
+    background-image: url(../images/pngwing.com.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;  
+}
+.pantalla{
+background-image:url(../images/giphy.gif) ; 
+    background-position: center;
+    background-size: cover;
+    height: 128px;
+    width: 148px;
+    position:absolute;
+    bottom: 306px;
+    left: 76px;
+}
+.buttonUp{
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    bottom: 193px;
+    left: 61px;
+}
+.buttonDown{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 150px;
+    left: 61px;
+}
+.buttonLeft{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 170px;
+    left: 40px;
+}
+.buttonRigth{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom:170px;
+    left: 82px;
+}
+.buttonA{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 180px;
+    left: 237px;
+}
+.buttonB{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 160px;
+    left: 188px;
+}
+.buttonSelect{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+}
+.buttonStart{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 100px;
+    left: 162px;
+}
+
