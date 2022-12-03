@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .gameboyMain{
     display: flex;
     justify-content: center;
@@ -22,11 +27,14 @@ background-image:url(../images/giphy.gif) ;
     left: 76px;
 }
 .buttonUp{
-    background-color: transparent;
+    background-color: white;
     border: none;
     position:absolute;
     bottom: 193px;
-    left: 61px;
+    left: 60px;
+    height: 20px;
+    width: 20px;
+
 }
 .buttonDown{
     background-color: transparent;
